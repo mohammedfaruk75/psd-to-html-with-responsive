@@ -1,0 +1,114 @@
+.header-sec {    
+    position: relative;
+    padding-top: 18px;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: 0px 5px 0px 0px #e4e4e4;
+   
+}
+.header-sec h1 {
+    font-family: 'pristina';
+    color: #505050;
+    font-size: 53px;
+    padding-top: 13px;
+    padding-left: 68px;
+    font-weight: 400;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: Myriad Pro ;
+    color: #005e7e;
+    padding: 34px;
+}
+.body-sec {
+    background-color: #ef4035;   
+    padding-top: 30px;
+    text-align: justify;
+    color: #ffff;       
+}
+.body-sec h1 {
+    font-family: 'Open Sans', sans-serif;
+    
+    font-size: 53px;
+    padding-top: 62px;
+    padding-bottom: 15px;
+    font-weight: bold;     
+}
+.body-sec p {
+    margin-top: 12px;
+    font-size: 13px;
+    
+    text-align: justify;
+}
+.t-one{ margin-top: 30px;
+}
+.t-two{margin-bottom: 50px;
+}
+.p-bot {
+    margin: 360px 54px 80px 46px;
+}
+.back{
+    position: relative;   
+}
+.backone {
+    position: absolute;
+    top: 29%;
+    left: 6%;
+    width: 45%;
+}
+
+.f-one{
+	position: relative;
+	font-family: Myriad Pro;
+	font-size: 14px;	
+}
+.one {
+	background-color: #ff6258;
+}
+.btn-cst {
+    position: absolute;
+    font-family: Script MT;
+    font-weight: bold;
+    font-size: 24px;
+    top: -14%;
+    color: #ffff;
+    
+}
+footer{
+    margin: 0px auto;
+    padding: 25px;
+    background: #ef4035;
+    color: #fff;
+    padding-top: 60px;
+}
+/* Extra small devices (portrait phones, less than 320px)*/
+@media (min-width: 0px) and (max-width:500px ) {
+    body{text-align: center;}
+    .header-sec {    
+    background-size:cover;
+    padding-top: 10px;
+    }
+    .header-sec h1 {
+    font-size: 15px;
+    }
+   .body-sec p{
+      font-size: 8px; 
+    } 
+    .body-sec h1{
+        font-size: 20px;
+    }   
+    .flex-column-new {
+        flex-direction: column!important;
+        } 
+    
+}
+@media (min-width: 500.01px) and (max-width:768px ) {
+
+}
+
+@media (min-width: 768.01px) and (max-width:1200px ) {
+
+}
+
+@media (min-width: 1200.01px) {
+
+}

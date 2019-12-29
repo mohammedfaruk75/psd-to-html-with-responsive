@@ -1,0 +1,169 @@
+.header-sec {
+    
+    background:linear-gradient(#00000080,#aac1ec00),url(../img/girl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 18px;
+    background-position: center center;
+    background-attachment: fixed;
+   
+}
+.line {
+    width: 40px;
+    border-bottom: 1px solid #fff;
+    padding: 0px 10px;
+}
+.header-sec h1 {
+    font-family: 'PRISTINA';
+    color: #fafd17;
+    font-size: 60px;
+    padding-top: 30px;    
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: Myriad Pro ;
+    color: #ffff;
+    padding: 34px;
+}
+ li.sep span {
+    color: #eee;
+    font-size: 11px;
+}
+.header-sec h5 {
+    font-family: Myriad pro Regular;
+    color: #ffff;
+    font-size: 49px;
+    padding-top: 62px;
+    padding-bottom: 15px;
+     
+}
+.header-sec p {
+    margin-top: 0;
+    margin-bottom: 65px;
+    font-size: 15px;
+    color: #ffff;
+} 
+.btn-cst {
+    border: 1px solid #ffff;
+    margin: 40px 0px;    
+    color: #ffffff;   
+    padding: 8px 68px;
+    margin-bottom: 190px;
+}
+.welcome {
+    background-color: #f6f6f6;
+    padding-top: 85px;
+}
+.welcome h2{   
+    font-family: Myriad pro;
+}
+.linetwo{
+    border-bottom: 1px solid black;
+    padding: 0px 13px;
+}
+.welcome p {
+    margin-right: 114px;
+    padding-top: 36px;
+    font-family: proxima nova regular;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.back{
+    position: relative;
+   
+    
+}
+.backone{
+    position: absolute;
+    top: 0%;
+    left: 0px;
+}
+.top {
+    position: absolute;
+    width: 50%;
+    top: 10%;
+    right: 40px;
+}
+.sec-last{
+    padding-top: 30px;
+    background: #28282e;
+    color: #fff;
+}
+.right{margin-top: 25px;}
+.right h1{font-size: 54px}
+.right p {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 140px;
+}
+.btn-control {
+    padding: 10px 10px;
+    background-color: #28282e00;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 80px;
+}
+.pic{
+    height: 40%;
+    margin-top: 100px;
+}
+footer{
+    margin: 0 px auto;
+    padding: 25px;
+    background: #ef4035;
+    color: #fff;
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 320px)*/
+
+
+
+
+@media (min-width: 0px) and (max-width:500px ) {
+    body{text-align: center;}
+    .header-sec {    
+    background-size:cover;
+    padding-top: 10px;
+    }
+    .header-sec h1 {
+    font-size: 15px;
+    }
+    .header-sec h5 {
+      font-size: 15px;  
+    }
+     .header-sec p{
+      font-size: 8px;  
+    }
+    .welcome {width: 100%; background-color: #f6f6f6 ;}
+    .welcome h2{font-size: 15px;}
+    .welcome p{font-size: 8px;}
+    .right h1 {font-size: 15px;}
+    .right p {
+            font-size: 12px;
+            margin-top: 20px;
+            margin-right: 0px;}
+    .flex-column-new {
+        flex-direction: column!important
+        }                    }
+    
+}
+@media (min-width: 500.01px) and (max-width:768px ) {
+
+}
+
+@media (min-width: 768.01px) and (max-width:1200px ) {
+
+}
+
+@media (min-width: 1200.01px) {
+
+}
+
+
+
+
+
+
